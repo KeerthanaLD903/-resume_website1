@@ -8,14 +8,14 @@ body {
 }
 
 header {
-    background: #c275af;
-    color: rgb(22, 6, 6);
+    background: #007BFF;
+    color: white;
     padding: 10px 0;
     text-align: center;
 }
 
 header nav a {
-    color: rgb(32, 121, 138);
+    color: white;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -40,4 +40,66 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+Change the style in this css code
+ChatGPT said:
+ChatGPT
+Certainly! Here's a revised version of the provided CSS code with some new styling tweaks to give it a fresh look:
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+    background: #e0f7fa;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+header nav a:hover {
+    text-decoration: underline;
+    color: #e0e0e0;
+}
+
+main {
+    padding: 30px;
+    background: #ffffff;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

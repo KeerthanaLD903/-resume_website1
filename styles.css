@@ -8,14 +8,14 @@ body {
 }
 
 header {
-    background: #c466dc;
+    background: #d5d1aa;
     color: rgb(22, 6, 6);
     padding: 10px 0;
     text-align: center;
 }
 
 header nav a {
-    color: white;
+    color: rgb(173, 153, 153);
     margin: 0 10px;
     text-decoration: none;
 }
